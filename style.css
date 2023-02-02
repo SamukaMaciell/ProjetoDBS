@@ -1,0 +1,97 @@
+
+
+body {
+    font-family: 'poppins';
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1920px;
+    margin: 0 auto;
+    gap: 1000px;
+
+}
+
+.cabecalho .logo {
+    width: 100px;
+    margin: 30px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    align-items: center ;
+    height: 100%;
+    
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #00ffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    
+    
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    
+}
+
+.fundo-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fundo-video .video {
+    height: 100vh;
+}
+
+.fundo-video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.container {
+   max-width: 1920px; 
+   margin: 0 auto;
+   padding: 0 30 30;
+   display: flex;
+   align-items: center;
+   height: calc(100vh - 132px);
+}
+
+.container .sinopse {
+    color: #00ffff;
+    margin: 30px 50px;
+    font-size: 20px;
+    width: 80%;
+    
+}
+
+.container .goku-vegita {
+   max-width: 800px;
+
+}
+
+
+
+
+
+
+
